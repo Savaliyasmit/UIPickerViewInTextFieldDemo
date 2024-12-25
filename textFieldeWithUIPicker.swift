@@ -23,7 +23,7 @@ class textFieldeWithUIPicker:UIViewController {
         countryPicker = UIPickerView()
         countryPicker.delegate = self
         selectCountryTxt.inputView = countryPicker
-        
+        selectCountryTxt.clearButtonMode = .whileEditing
     }
 
     
